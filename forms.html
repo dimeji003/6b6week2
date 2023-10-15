@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <h1>create account</h1>
+
+        <form>
+            <ul>
+                <li>
+                    <label for="fname">full name</label>
+                    <input type="text" name="fname" id="fname">
+                </li>
+
+                <li>
+                    <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                </li>
+
+                <li><label for="address">home address</label>
+                <input type="text" name="address" id="address">
+                </li>
+
+                <li>
+                    <p>gender</p>
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="none">none</label>
+                    <input type="radio" name="gender" id="none">
+                    
+                </li>
+                <li>
+                    <p>Marital Status</p>
+                    <label for="single">Single</label>
+                    <input type="radio" name="maritalstatus" id="single"  checked>
+                    <label for="married">Married</label>
+                    <input type="radio" name="maritalstatus" id="married" checked>
+                    <label for="divorced">Divorced</label>
+                    <input type="radio" name="maritalstatus" id="divorced" checked>
+                    <label for="widowed">Widowed</label>
+                    <input type="radio" name="maritalstatus" id="widowed" checked>
+                </li>
+                <li>
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="email" placeholder="enter your email address" required>
+                </li>
+                <li>
+                    <span>State of Origin</span>
+
+                    <select>
+                        <optgroup label="south west">
+                            <option value="lg">Lagos</option>
+                            <option value="og">Ogun</option>
+                            <option value="os">Osun</option>
+                            <option value="on">Ondo</option>
+                            <option value="ek">Ekiti</option>
+                            <option value="oy">Oyo</option>
+                        </optgroup>
+                        <optgroup label="south east">
+                            <option value="an">anambra</option>
+                            <option value="ab">abia</option>
+                            <option value="im">imo</option>
+                            <option value="eb">ebonyi</option>
+                            <option value="en">enugu</option>
+                        </optgroup>
+                        <optgroup label="north east">
+                            <option value="ad">adamawa</option>
+                            <option value="ba">bauchi</option>
+                            <option value="bo">borno</option>
+                            <option value="go">gombe</option>
+                            <option value="ta">taraba</option>
+                            <option value="yo">yobe</option>
+                        </optgroup>
+                       
+                    </select>
+                </li>
+                <li>
+                    <label for="phoneno">Phone number</label>
+                    <input type="tel" name="phoneno" id="phoneno" placeholder="08163901595" required>
+                </li>
+                <li>
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">accept terms &amp; conditions</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="accept2" id="accept2">
+                    <label for="accept2">subscribe to our weekly news letter</label>
+                </li>
+
+                <li><input type="submit" value="subscribe"></li>
+            </ul>
+            
+
+            
+        </form> 
+    </main>
+    
+</body>
+</html>

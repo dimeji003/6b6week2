@@ -1,0 +1,13 @@
+address > strong{
+    color: blue;
+}
+h2{
+    color: crimson;
+}
+h2 ~ p{
+    background-color: magenta;
+
+}
+dd > *{
+    background-color: cyan;
+}

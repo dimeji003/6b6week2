@@ -1,0 +1,21 @@
+main p{
+    color: black;
+
+}
+main > p{
+    color: brown;
+}
+*{
+    color: pink;
+}
+h2 , h3{
+    background-color: blue;
+}
+
+h2 ~ *{
+    background-color: black;
+}
+h3 ~ *{
+    background-color: purple;
+}
+
