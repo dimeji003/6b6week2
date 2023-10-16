@@ -1,13 +1,19 @@
 address > strong{
     color: blue;
 }
+li > time{
+    background-color: blue;
+}
 h2{
     color: crimson;
 }
 h2 ~ p{
     background-color: magenta;
-
 }
+
+
 dd > *{
     background-color: cyan;
 }
+
+
