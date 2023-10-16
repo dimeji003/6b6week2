@@ -12,7 +12,7 @@ h2 ~ p{
 }
 
 
-dd > *{
+dd *{
     background-color: cyan;
 }
 
